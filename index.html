@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DA Analytics | Invoice Intelligence</title>
+  <meta name="description" content="Invoice analytics and BI dashboards for cafés and small businesses in Australia." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="assets/logo_da.png" alt="DA Analytics" class="brand-logo" />
+        <span class="brand-name">DA Analytics</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Business Intelligence for Smarter Businesses</h1>
+          <p>
+            Turn supplier invoices into clear insights: price variation, trends, and weekly reports.
+            
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Book a Free Call</a>
+            <a class="btn btn-ghost" href="#case-study">See Results</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+           <div class="badge">
+            <img src="assets/invoiceiQ_logo.png" alt="InvoiceIQ" />
+            <span>Powered by InvoiceIQ</span>
+        </div>
+
+        <div class="metric">
+            <span class="metric-label">Supplier price tracking</span>
+            <span class="metric-value">Automated</span>
+        </div>
+
+        <div class="metric">
+            <span class="metric-label">Weekly reporting</span>
+            <span class="metric-value">Fast</span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>What I Do</h2>
+        <div class="grid3">
+          <div class="card">
+            <h3>Invoice Analytics</h3>
+            <p> Convert supplier invoice PDFs into structured Excel/CSV data and unlock clear cost visibility</p>
+            <ul>
+                <li>Automatic PDF to Excel/CSV conversion</li>
+                <li>No manual data entry!</li>
+                <li>Track overall cost trends over time</li>
+                <li>Identify item-level price variations</li>
+                <li>Monitor supplier price increases</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>POS Analytics</h3>
+            <p>Transform your point-of-sale data into meaningful sales insights.</p>
+            <ul>
+                <li>Analyse sales trends over time</li>
+                <li>Identify best-selling items and peak periods</li>
+                <li>Track product performance and profitability</li>
+                <li>Understand customer purchasing patterns</li>
+                
+          </div>
+          <div class="card">
+            <h3>Interactive Dashboards</h3>
+            <p>Transform your business data into meaningful insights.</p>
+            <ul>
+                <li>Monitor revenue, costs, and profit trends</li>
+                <li>Track supplier price changes instantly</li>
+                <li>Compare performance by item, category, or period</li>
+                <li>Filter by date range, supplier, or product</li>
+                
+                
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="case-study" class="section alt">
+      <div class="container">
+        <h2>Case Study</h2>
+        <div class="card">
+          <p><strong>Client:</strong> Local café (Perth)</p>
+          <ul class="list">
+            <li>Automated PDF invoice extraction for multiple suppliers</li>
+            <li>Tracked unit price variation and cost increases</li>
+            <li>Delivered simple weekly reporting</li>
+          </ul>
+          <p class="quote">“This made it easy to see price increases and saved hours of data entry every week.”</p>
+        </div>
+         <div class="dashboard-preview">
+        <img src="assets/dash_preview.png" alt="InvoiceIQ Dashboard" />
+      </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <!-- Netlify form (works after you deploy to Netlify) -->
+        <form name="contact" method="POST" netlify="true" class="form">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div class="form-row">
+            <label>Name</label>
+            <input name="name" required />
+          </div>
+
+          <div class="form-row">
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </div>
+
+          <div class="form-row">
+            <label>Message</label>
+            <textarea name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <p class="small">Or <a href="mailto:dulani@daanalytics.com.au">Email</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> DA Analytics</span>
+      <span class="muted">InvoiceIQ • BI • Automation</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
