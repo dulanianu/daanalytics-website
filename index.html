@@ -11,7 +11,8 @@
 
 <body>
   <header class="nav">
-    <div class="container nav-inner">
+    
+    <div class="container-wide nav-inner">
       <div class="brand">
         <img src="assets/logo_da.png" alt="DA Analytics" class="brand-logo" />
         <span class="brand-name">DA Analytics</span>
@@ -20,26 +21,27 @@
       <nav class="nav-links">
         <a href="#services">Services</a>
         <a href="#case-study">Case Study</a>
-        <!-- <a href="https://fuel.daanalytics.com.au" target="_blank" rel="noopener noreferrer">Fuel Tracker</a> -->
         <a href="#contact" class="btn btn-small">Contact</a>
       </nav>
     </div>
+    
   </header>
 
   <main>
     <section class="hero">
-      <div class="container hero-inner">
+      <div class="container container-wide hero-inner">
         <div class="hero-copy">
           <h1>Business Intelligence for Smarter Businesses</h1>
           <p>
-            Turn supplier invoices into clear insights: price variation, trends, and weekly reports.
+            Turn data into clear insights: price variation, sales-trends, and weekly reports.
             
           </p>
           <div class="hero-cta">
-            <a class="btn" href="#contact">Book a Free Call</a>
-            <a class="btn btn-ghost" href="#case-study">See Results</a>
-            <a class="btn btn-ghost" href="https://fuel.daanalytics.com.au" target="_blank" rel="noopener noreferrer">Open Fuel Price Tracker</a>
-          </div>
+              
+
+              <a class="btn" href="#contact">Book a Free Call</a>
+              <a class="btn btn-ghost" href="#case-study">See Results</a>
+            </div>
         </div>
 
         <div class="hero-card">
@@ -61,6 +63,25 @@
       </div>
     </section>
 
+    <section class="fuel-banner">
+      <div class="banner-inner">
+        <div class="banner-content">
+          <div>
+            <p class="badge">🚀 New Launch</p>
+            <h2>Fuel Price Tracker – Built by DA Analytics</h2>
+            <p>
+              A live tool to find the cheapest fuel in Perth.  
+              See how we turn data into practical applications.
+            </p>
+          </div>
+
+          <a href="https://fuel.daanalytics.com.au" class="fuel-link" target="_blank">
+            ⛽ Try It Now →
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section id="services" class="section">
       <div class="container">
         <h2>What We Do</h2>
@@ -77,10 +98,19 @@
             </ul>
           </div>
           <div class="card">
-            <h3>Build Applications</h3>
-            <p>Create intuitive applications that transform data and processes into practical tools for smarter business decisions.</p>
+            <h3>Custom Business Applications</h3>
+            <p>We build applications that simplify operations, reduce manual work, and provide clear insights for better decision-making.</p>
             <p style="margin-top:12px;">
-              <a href="https://fuel.daanalytics.com.au" target="_blank" rel="noopener noreferrer">Visit Fuel Price Tracker App →</a>
+              <ul>
+                <li>Real-time data applications</li>
+                <li>Automation tools</li>
+                <li>Custom dashboards</li>
+              </ul>
+
+            <p>See our latest build:</p>
+                
+              
+              <a href="https://fuel.daanalytics.com.au" class="fuel-link"target="_blank" rel="noopener noreferrer">⛽ Fuel Price Tracker →</a>
             </p>
           </div>
           <div class="card">
@@ -91,7 +121,7 @@
                 <li>Identify best-selling items and peak periods</li>
                 <li>Track product performance and profitability</li>
                 <li>Understand customer purchasing patterns</li>
-                
+            </ul>    
           </div>
           <div class="card">
             <h3>Interactive Dashboards</h3>
@@ -101,7 +131,7 @@
                 <li>Track supplier price changes instantly</li>
                 <li>Compare performance by item, category, or period</li>
                 <li>Filter by date range, supplier, or product</li>
-                
+            </ul>   
                 
           </div>
         </div>
@@ -166,59 +196,37 @@
       <div class="container">
         <h2>Contact</h2>
 
-        <!-- Netlify form (works after you deploy to Netlify) 
-        <form name="contact" method="POST" netlify="true" class="form">
-          <input type="hidden" name="form-name" value="contact" />
-
-          <div class="form-row">
-            <label>Name</label>
-            <input name="name" required />
-          </div>
-
-          <div class="form-row">
-            <label>Email</label>
-            <input name="email" type="email" required />
-          </div>
-
-          <div class="form-row">
-            <label>Message</label>
-            <textarea name="message" rows="5" required></textarea>
-          </div>
-
-          <button class="btn" type="submit">Send</button>
-        </form> -->
-
-        
+               
         
         <div class="contact-details">
 
-  <div class="contact-item">
-    <span class="contact-label">Phone: </span>
-    <a href="tel:+61452338282" class="contact-value">
-      +61 452 338 282
-    </a>
-  </div>
+      <div class="contact-item">
+        <span class="contact-label">Phone: </span>
+        <a href="tel:+61452338282" class="contact-value">
+          +61 452 338 282
+        </a>
+      </div>
 
-  <div class="contact-item">
-    <span class="contact-label">Email</span>
-    <a href="mailto:dulani@daanalytics.com.au" class="contact-value">
-      dulani@daanalytics.com.au
-    </a>
-  </div>
+      <div class="contact-item">
+        <span class="contact-label">Email</span>
+        <a href="mailto:dulani@daanalytics.com.au" class="contact-value">
+          dulani@daanalytics.com.au
+        </a>
+      </div>
 
-  <div class="contact-item">
-    <span class="contact-label">WhatsApp</span>
-    <a href="https://wa.me/61452338282" target="_blank" class="contact-value">
-      Chat on WhatsApp
-    </a>
-  </div>
+      <div class="contact-item">
+        <span class="contact-label">WhatsApp</span>
+        <a href="https://wa.me/61452338282" target="_blank" class="contact-value">
+          Chat on WhatsApp
+        </a>
+      </div>
 
-  <div class="contact-item">
-    <span class="contact-label">Facebook</span>
-    <a href="https://www.facebook.com/profile.php?id=61587686784131" target="_blank" class="contact-value">
-      Visit our Facebook page
-    </a>
-  </div>
+      <div class="contact-item">
+        <span class="contact-label">Facebook</span>
+        <a href="https://www.facebook.com/profile.php?id=61587686784131" target="_blank" class="contact-value">
+          Visit our Facebook page
+        </a>
+      </div>
 
 </div>
 
